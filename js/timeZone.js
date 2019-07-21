@@ -78,7 +78,7 @@ function countdownTimer() {
 				document.getElementById(buttonTimerId[cnt]).innerHTML = "Event begins in: " + ("0" + days).slice(-2) + "d " + ("0" + hours).slice(-2) + "h " + ("0" + minutes).slice(-2) + "m " + ("0" + seconds).slice(-2) + "s ";		
 			}
 			if (distance < 0 && distance >= eventStartTime.unix() - eventStopTime.unix()) {
-				document.getElementById(buttonId[cnt]).style.backgroundColor="#F995FF";
+				document.getElementById(buttonId[cnt]).style.backgroundColor="#f01111";
 				distance = eventStopTime.unix() - now.unix();
 				days = Math.floor(distance / (60 * 60 * 24));
 				hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
