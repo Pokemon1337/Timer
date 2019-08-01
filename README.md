@@ -1,2 +1,3 @@
-✨ # Timer by th!sGuy ✨
+# Timer by ✨th!sGuy✨
+
 © code by DarkShadow
